@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta charset="utf-8">
+   <title>D-23</title>
+  </head>
+  <body style="background-color: #f8f1ff; font-family: 標楷體;">
+
+   <h1>給我推坑誰！</h1>
+
+   <form>
+
+    <p>名字:
+    <input type="text" name="userName" size="40" required>
+    </p>
+
+    <br>
+
+    <p>哪種類別:
+    <input type="checkbox" name="userStreaming[]" value="star" multiple>明星
+    <input type="checkbox" name="userStreaming[]" value="actor" multiple>演員
+    <input type="checkbox" name="userStreaming[]" value="comic" multiple>漫畫
+    <input type="checkbox" name="userStreaming[]" value="novel" multiple>小說
+    </p>
+
+    <br>
+
+    <p>語種(是語言，不是國籍、出道國家哈！) :
+    <input type="radio" name="userAge" value="c">中
+    <input type="radio" name="userAge" value="k">韓
+    <input type="radio" name="userAge" value="e">英
+    <input type="radio" name="userAge" value="j">日
+    <input type="radio" name="userAge" value="t">泰
+    </p>
+
+    <br>
+
+    <p>你的推薦點<br>
+    <textarea name="UserOpinion" cols="50" rows="10"  required></textarea>
+    </p>
+
+    <br>
+
+    <p>推薦程度?(1~5)<br>
+    <input type="range" max="5" min="0" step="1">
+    </p>
+
+    <br>
+
+    <input type="submit" value="提交">
+    <input type="reset" value="重新輸入">
+
+
+   </form>
+
+
+  </body>
+</html>
